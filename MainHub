@@ -1,0 +1,30 @@
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
+local Library = DarkraiX:Window("Vinuz-DoorsHub|Op?","","",Enum.KeyCode.RightControl);
+-- Made By @Vinuz-x#6593
+
+--tabs
+Tab1 = Library:Tab("Guis")
+Tab2 = Library:Tab("Credits")
+
+--Buttons
+Tab1:Button("InfinateYeild",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab1:Button("Vynixus",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
+
+
+Tab1:Button("More Soon...",function()
+	
+end)
+
+--Credits Button
+Tab2:Button("Made BY @Vinuz-x#6593",function()
+	
+end)
+--placeId
+if game.PlaceId == 6516141723 then
+	
+end
