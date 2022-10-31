@@ -24,7 +24,4 @@ end)
 Tab2:Button("Made BY @Vinuz-x#6593",function()
 	
 end)
---placeId
-if game.PlaceId == 6516141723 then
-	
-end
+
